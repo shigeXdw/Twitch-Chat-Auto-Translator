@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Twitch Chat Auto Translator
-// @namespace    https://github.com/local/twitch-chat-auto-translator
+// @namespace    https://github.com/shigeXdw/Twitch-Chat-Auto-Translator
 // @version      3.6.6
 // @description  Automatically translates Twitch chat messages into your chosen language
 // @author       BomboclatChickenNugget48/Nanahira
