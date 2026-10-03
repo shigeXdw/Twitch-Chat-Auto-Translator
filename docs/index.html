@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Install Twitch Translator for Tampermonkey. Translate chat and replies with optional AI tone and translation previews.">
+  <title>Install · Twitch Translator</title>
+  <link rel="stylesheet" href="install.css">
+</head>
+<body>
+  <main>
+    <header class="brand"><span class="logo" aria-hidden="true">文</span><span>Twitch Translator</span><span class="tag">Downloads</span></header>
+    <section class="intro" aria-labelledby="title"><p class="eyebrow">GET STARTED</p><h1>Translate your Twitch chat.</h1><p>Read messages, translate replies and review them before sending.</p></section>
+    <div class="editions">
+      <section class="edition recommended" aria-labelledby="chat-title">
+        <div class="card-top"><span class="badge">Recommended</span><span class="version">v5.3.2</span></div>
+        <h2 id="chat-title">Tampermonkey</h2><p class="description">Chat translation, without a desktop app.</p>
+        <ul><li>Incoming chat &amp; outgoing replies</li><li>Optional AI tone &amp; back-translation</li><li>Translation preview, Undo &amp; settings</li></ul>
+        <a class="button primary" href="install/twitch-chat-translator.user.js">Install chat translator <span aria-hidden="true">↗</span></a>
+        <p class="caption">Requires Tampermonkey · Confirm Install when prompted</p>
+      </section>
+      <section class="edition unavailable" aria-labelledby="companion-title">
+        <div class="card-top"><span class="badge muted">Not available</span><span class="version">Companion edition</span></div>
+        <h2 id="companion-title">Chat + audio</h2><p class="description">Browser extension with a local speech helper.</p>
+        <ul><li>Chat translation</li><li>Video subtitles &amp; audio translation</li><li>Optional desktop speech processing</li></ul>
+        <button class="button" type="button" disabled aria-describedby="companion-note">Currently disabled</button>
+        <p class="caption" id="companion-note">Not included in the Tampermonkey version</p>
+      </section>
+    </div>
+    <section class="browsers" aria-labelledby="browser-title">
+      <h2 id="browser-title">Desktop browsers</h2>
+      <div class="browser-list"><span>Firefox</span><span>Chrome</span><span>Edge</span><span>Brave</span><span>Opera / Opera GX</span></div>
+      <p>Use the same script with <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreferrer">Tampermonkey for your browser</a>. Brave uses the Chrome extension. Chrome-based browsers may need <a href="https://www.tampermonkey.net/faq.php#Q209" target="_blank" rel="noopener noreferrer">Allow User Scripts enabled</a>.</p>
+      <p class="compatibility">These are desktop targets, not a guarantee of testing in every browser. Automated UI checks run in Chromium. Safari has Tampermonkey, but this script is unverified there. Mobile is not currently supported.</p>
+    </section>
+    <section class="setup" aria-labelledby="setup-title"><h2 id="setup-title">First time? Three steps.</h2>
+      <ol>
+        <li><span class="step" aria-hidden="true">1</span><div><h3>Get Tampermonkey</h3><p>Install the browser extension from its official website.</p><a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreferrer">Get Tampermonkey <span aria-hidden="true">↗</span></a></div></li>
+        <li><span class="step" aria-hidden="true">2</span><div><h3>Install the translator</h3><p>Use the purple button above, then confirm in Tampermonkey. Already installed? The same button opens the update prompt.</p></div></li>
+        <li><span class="step" aria-hidden="true">3</span><div><h3>Open Twitch</h3><p>Refresh the page and click the ⚙ beside the chatbox. Choose your languages and provider. Disable older translator copies to avoid conflicts.</p></div></li>
+      </ol>
+    </section>
+    <details><summary>Installer didn’t open?</summary><div class="help"><p>Make sure Tampermonkey is installed and enabled. This page must be hosted over HTTPS for the normal install flow.</p><p>Alternatively, <a href="install/twitch-chat-translator.user.js" download>download the script</a>, open Tampermonkey’s dashboard, choose <strong>Create a new script</strong>, replace the editor contents with the downloaded file’s text and save.</p><p>On supported Chrome-based browsers, Tampermonkey may also require the <strong>Allow User Scripts</strong> permission. <a href="https://www.tampermonkey.net/faq.php#Q209" target="_blank" rel="noopener noreferrer">Permission help ↗</a></p></div></details>
+    <aside class="privacy"><h2>Before you install</h2><p>This page cannot install extensions or desktop apps silently. Your browser asks for confirmation. Chat text goes to your selected translation provider; AI and DeepL may require an API key and incur charges. Google’s no-key service is unofficial. Audio is not included in this version.</p><p>Updating an existing Tampermonkey copy keeps its settings. Settings from the standalone extension are separate.</p></aside>
+    <footer><span>Twitch Translator · Chat edition</span><span>Not affiliated with Twitch</span></footer>
+  </main>
+</body>
+</html>
